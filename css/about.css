@@ -1,0 +1,163 @@
+* {
+    margin: 0%;
+}
+
+
+/*Heading Begins*/
+
+body {
+    width: 960px;
+    margin: auto;
+}
+
+li {
+    display: inline;
+    padding-left: 100px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 26px;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: .1em;
+    color: white;
+    position: relative;
+    left: 170px;
+    top: 150px;
+}
+
+a:hover {
+    background-color: white;
+    opacity: .5;
+}
+
+header {
+    height: 300px;
+    background-image: url(/html/image/pexels-negative-space-PNG.png);
+    background-size: 2000px;
+}
+
+#coffeespotlogo {
+    width: 290px;
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: .2em;
+    color: white;
+    border-style: solid;
+    border-width: 6px;
+    position: relative;
+    right: -350px;
+    top: 100px;
+}
+
+
+/*Heading Ends*/
+
+
+/*Img-box Started Context*/
+
+section {
+    width: 960px;
+    height: 400px;
+}
+
+h1#coffee-quote {
+    color: black;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+hgroup {
+    font-family: 'Teko', sans-serif;
+    letter-spacing: .1em;
+    position: relative;
+    left: 200px;
+    top: 200px;
+}
+
+img {
+    width: 200px;
+    border-radius: 180px;
+    position: relative;
+    left: 660px;
+    top: 0px;
+}
+
+
+/*End Img-box Context*/
+
+
+/*tri-box Start Context*/
+
+section#article {
+    width: 960px;
+    height: 600px;
+    background-color: red;
+}
+
+article.articles {
+    width: 240px;
+    height: 600px;
+    padding: 0px 40px 0px 40px;
+    float: left;
+    background-color: aqua;
+    text-align: initial;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    letter-spacing: .1em;
+}
+
+article#whycoffee {
+    padding: 0px 40px 0px 40px;
+    background-color: rgb(216, 216, 10);
+}
+
+article#coffeeshop {
+    padding: 0px 40px 0px 40px;
+    background-color: rgb(37, 192, 102);
+}
+
+article#supportus {
+    padding: 0px 40px 0px 40px;
+    background-color: rgb(44, 81, 160);
+}
+
+h1 {
+    font-size: 28px;
+    color: white;
+    letter-spacing: .1em;
+    text-decoration: underline;
+}
+
+p::first-letter {
+    font-size: 35px;
+    color: White;
+}
+
+
+/*End tri-box Context*/
+
+
+/*Footer Started*/
+
+footer {
+    clear: both;
+    height: 100px;
+    margin: 0px;
+    background-image: url(/html/image/pexels-negative-space-PNG.png);
+    background-position: 0px 0px;
+    background-size: 2000px;
+}
+
+p.copyright {
+    color: #fff;
+    letter-spacing: .1em;
+    font-size: 14px;
+    position: relative;
+    left: 350px;
+    top: 60px;
+}
+
+
+/* End Of Footer*/

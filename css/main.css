@@ -1,0 +1,201 @@
+* {
+    margin: 0%;
+}
+
+
+/*Heading Begins*/
+
+body {
+    width: 960px;
+    margin: auto;
+    /* background-color: rgb(58, 30, 3);*/
+}
+
+li {
+    display: inline;
+    padding-left: 100px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 26px;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: .1em;
+    color: white;
+    position: relative;
+    left: 170px;
+    top: 150px;
+}
+
+a:hover {
+    background-color: white;
+    opacity: .5;
+}
+
+header {
+    height: 300px;
+    background-image: url(/html/image/pexels-negative-space-PNG.png);
+    background-size: 2000px;
+}
+
+#coffeespotlogo {
+    width: 290px;
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: .2em;
+    color: white;
+    border-style: solid;
+    border-width: 6px;
+    position: relative;
+    right: -350px;
+    top: 100px;
+}
+
+
+/*Heading Ends*/
+
+
+/*Card Note Start Context*/
+
+img {
+    width: 253px;
+}
+
+section.info-cards {
+    width: 960px;
+    margin: 0px 0px 0px 8px;
+}
+
+figure {
+    width: 300px;
+    height: 510px;
+    float: left;
+    margin: 40px 20px 20px 0px;
+    background-image: url(/html/image/pexels-cátia-matos-1072179.jpg);
+    background-size: 600px;
+}
+
+figcaption {
+    width: 253px;
+    margin: auto;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    border-style: solid;
+    border-color: white;
+}
+
+h1.topics {
+    color: white;
+    font-size: 30px;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: .2em;
+}
+
+p.img-notes {
+    color: white;
+    text-align: justify;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    line-height: 1.4em;
+    letter-spacing: 0.1em;
+}
+
+
+/*Card Note Start Context End*/
+
+
+/*Start Of coffee-spot*/
+
+section.coffee-spot {
+    width: 960px;
+    height: 460px;
+    clear: both;
+}
+
+article.coffee-spot-article {
+    width: 350px;
+    float: left;
+    margin: 40px 60px 20px 0px;
+}
+
+img#coffeecup {
+    width: 540px;
+    margin: 40px 0px 0px 0px;
+}
+
+h1#coffee-spot-h1 {
+    font-size: 30px;
+}
+
+h1,
+h2,
+coffee-spot-heading {
+    text-align: center;
+    /*color: white;*/
+    font-family: 'Teko', sans-serif;
+    letter-spacing: .1em;
+}
+
+#coffee-spot-par {
+    width: 350px;
+    margin: 10px 0px 0px 0px;
+    height: 250px;
+    /*color: white;*/
+    font-family: 'Teko', sans-serif;
+    font-size: 22px;
+    text-align: justify;
+    line-height: 1.4em;
+    letter-spacing: .1em;
+}
+
+#coffee-spot-par::first-letter {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+div#coffeecup-2 {
+    float: left;
+}
+
+#coffee-spot-par-2 {
+    float: right;
+    margin: 40px 0px 0px 0px;
+    width: 350px;
+    height: 500px;
+    /*color: white;*/
+    font-family: 'Teko', sans-serif;
+    font-size: 22px;
+    text-align: justify;
+    line-height: 1.4em;
+    letter-spacing: .1em;
+}
+
+
+/*End Of coffee-spot*/
+
+
+/**/
+
+footer {
+    clear: both;
+    height: 100px;
+    margin: 0px;
+    background-image: url(/html/image/pexels-negative-space-PNG.png);
+    background-position: 0px 0px;
+    background-size: 2000px;
+}
+
+p.copyright {
+    color: #fff;
+    letter-spacing: .1em;
+    font-size: 14px;
+    position: relative;
+    left: 350px;
+    top: 60px;
+}
+
+
+/**/
